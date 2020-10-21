@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    width: auto;
+    height: 25%;
+    background-color: rgb(20, 25, 30);
+    margin: 0px;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    line-height: 1.5em;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+h1 {
+    font-size: 1.3em;
+}
+
+.header-text {
+    font-size: 0.9em;
+}
+
+nav {
+    margin: 1em;
+    padding: 2em 15%;
+    line-height: 1.3em;
+}
+
+ul {
+    
+    margin: 0px;
+    padding: 0px 15px;
+}
+
+a {
+    text-decoration: none;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: hotpink;
+}
