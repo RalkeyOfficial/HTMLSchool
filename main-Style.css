@@ -8,12 +8,20 @@ header {
     height: 25%;
     background-color: rgb(20, 25, 30);
     margin: 0px;
-    padding: 50px;
+    padding: 30px;
     color: white;
     text-align: center;
     line-height: 1.5em;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+
+.backlink {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    width: 3em;
+    height: 2em;
 }
 
 h1 {
