@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    font-family: sans-serif;
 }
 
 header {
@@ -32,27 +31,6 @@ h1 {
     font-size: 0.9em;
 }
 
-nav {
+p {
     margin: 1em;
-    padding: 2em 15%;
-    line-height: 1.3em;
-}
-
-ul {
-    
-    margin: 0px;
-    padding: 0px 15px;
-}
-
-a {
-    text-decoration: none;
-}
-a:link {
-    color: black;
-}
-a:visited {
-    color: black;
-}
-a:hover {
-    color: hotpink;
 }
