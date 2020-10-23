@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.main-header {
+    width: auto;
+    height: 25%;
+    background-color: rgb(20, 25, 30);
+    margin: 0px;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    line-height: 1.5em;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.backlink {
+    display: flex;
+    margin: 1em;
+    padding: 0px;
+    width: 3em;
+    height: 2em;
+}
+
+h1 {
+    font-size: 1.3em;
+}
+
+.main-body {
+    padding: 1rem;
+}
