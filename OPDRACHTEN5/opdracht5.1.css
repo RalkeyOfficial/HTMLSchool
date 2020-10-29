@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-header {
+    width: auto;
+    height: 25%;
+    background-color: rgb(20, 25, 30);
+    margin: 0px;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    line-height: 1.5em;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.backlink {
+    display: flex;
+    margin: 1em;
+    padding: 0px;
+    width: 3em;
+    height: 2em;
+}
+
+.opdr-body {
+    background-color: #fcebeb;
+    margin: auto;
+    margin-bottom: 2em;
+    padding: 0%;
+    width: 80%;
+}
+
+.opdr-body h1 {
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.opdr-body nav ul li {
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left;
+    padding: 0;
+    padding-right: 2em;
+    margin: 0;
+}
+
+.opdr-body .sec-1 {
+    display: flex;
+}
+
+.opdr-body .sec-1 .left-img {
+    margin: 1.3em;
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 500px;
+    text-align: center;
+}
+
+.opdr-body .sec-1 .right-img p {
+    margin-top: 1.3em;
+    margin-right: 1.3em;
+    margin-bottom: 1.3em;
+    background-color: black;
+    color: white;
+    width: 36em;
+    height: 153px;
+    text-align: center;
+}
+
+.opdr-body .sec-2 h2 {
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-left: 1em;
+}
+
+.opdr-body .sec-2 .article-sec {
+    display: flex;
+}
+
+.opdr-body .sec-2 .article-sec article {
+    padding: 0;
+    margin: 1em;
+    width: auto;
+}
