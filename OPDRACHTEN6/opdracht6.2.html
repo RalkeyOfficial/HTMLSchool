@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>opdracht 6.2</title>
-    <link rel="stylesheet" href="opdracht6.1.css">
+    <link rel="stylesheet" href="opdracht6.2.css">
 </head>
 <body>
     <div>
@@ -23,6 +23,78 @@
                 <form action="https://www.savatarian.com/html5/form.php" method="GET">
 
                     <ul>
+
+                        <section class="second-header">
+                            <h2>formulier</h2>
+                        </section>
+
+                        <div class="secondul">
+                            <section class="part1">
+                                <li>
+                                    <label for="voornaam">voornaam:</label>
+                                    <input type="text" name="voornaam" id="voornaam">
+                                </li>
+                                <li>
+                                    <label for="tussenvoegsel">tussenvoegsel:</label>
+                                    <input type="text" name="tussenvoegsel" id="tussenvoegsel">
+                                </li>
+                                <li>
+                                    <label for="achternaam">achternaam:</label>
+                                    <input type="text" name="achternaam" id="achternaam">
+                                </li>
+                                <li>
+                                    <label for="geslacht">geslacht:</label>
+                                    <input type="radio" name="geslacht" value="man">
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                    <label for="geslacht">man</label>
+                                    <input type="radio" name="geslacht" value="vrouw" class="radiobutton2">
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                    <label for="geslacht">vrouw</label>
+                                </li>
+                                <li>
+                                    <label for="kleur-ogen">kleur ogen:</label>
+                                    <select name="kleur-ogen" id="kleuro-gen">
+                                        <option value="blauw">blauw</option>
+                                        <option value="groen">groen</option>
+                                        <option value="bruin">bruin</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <label for="geboortedatum">geboorte datum:</label>
+                                    <input type="date">
+                                </li>
+                                <li>
+                                    <label for="omschrijving">omschrijving:</label>
+                                    <textarea name="omschijving" id="omschrijving" cols="30" rows="10"></textarea>
+                                </li>
+                            </section>
+                            <section class="part2">
+                                <li>
+                                    <label for="lekker-eten">lekker eten:</label>
+
+                                    <input type="checkbox" value="hamburger" name="lekker-eten" id="lekker-eten">
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                    <label for="lekker-eten">hamburger</label>
+                                    <br>
+
+                                    <input type="checkbox" value="pizza" name="lekker-eten" id="lekker-eten">
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                    <label for="lekker-eten">pizza</label>
+                                    <br>
+
+                                    <input type="checkbox" value="carpachio" name="lekker-eten" id="lekker-eten">
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                    <label for="lekker-eten">carpachio</label>
+                                    <br>
+                                </li>
+                            </section>
+                        </div>
+
+                        <footer>
+                            <button class="button">annuleren</button>
+                            &nbsp; &nbsp; &nbsp; &nbsp; 
+                            <input type="submit" value="submit" id="knop" class="button">
+                        </footer>
                         
                     </ul>
 
