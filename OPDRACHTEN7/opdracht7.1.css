@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-header {
+.main-header {
     width: auto;
     background-color: rgb(20, 25, 30);
     margin: 0px;
@@ -23,35 +25,10 @@ header {
     height: 2em;
 }
 
-h1 {
-    font-size: 1.3em;
-}
-
-.header-text {
-    font-size: 0.9em;
-}
-
-nav {
-    margin: 1em;
-    padding: 2em 15%;
-    line-height: 1.3em;
-}
-
-ul {
+@media all and (min-width: 501px) {
     
-    margin: 0px;
-    padding: 0px 15px;
 }
 
-a {
-    text-decoration: none;
-}
-a:link {
-    color: black;
-}
-a:visited {
-    color: black;
-}
-a:hover {
-    color: hotpink;
+@media all and (max-width: 500px) {
+    
 }
