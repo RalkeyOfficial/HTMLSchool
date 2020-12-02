@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    background-color: rgb(233, 233, 233);
 }
 
 .main-header {
@@ -26,6 +27,111 @@ body {
 }
 
 @media all and (min-width: 501px) {
+    .opdr-body {
+        display: absolute;
+        left: 50%;
+        width: 1100px;
+        margin: 0px auto;
+    }
+
+    .opdr-header {
+        background-color: #caecde;
+        padding: 2em;
+        height: 13em;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .header-logo {
+        width: auto;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .opdr-nav ul {
+        list-style-type: none;
+        background-color: #808080;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .opdr-nav ul li {
+        color: white;
+        padding: 5px;
+        padding-left: 2em;
+        line-height: 1.5em;
+    }
+
+    .opdr-nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .opdr-nav ul li a:hover {
+        color: rgb(202, 202, 202);
+    }
+
+    
+    .opdr-news {
+        margin: 0px;
+        padding: 0px 1em 1em 1em;
+        background-color: #f9f1eb;
+    }
+
+    .opdr-news h1 {
+        color: coral;
+        margin: 0px;
+        padding: 0.6em 0px;
+    }
+
+    .opdr-news p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .opdr-instr1 {
+        margin: 0px;
+        padding: 0px 1em 1em 1em;
+        background-color: #f9f1eb;
+    }
+    
+    .opdr-instr1 h1 {
+        color: coral;
+        margin: 0px;
+        padding: 0.6em 0px;
+    }
+
+    .opdr-instr1 div {
+        display: flex;
+    }
+
+    .opdr-instr1 div p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .opdr-contact {
+        background-color: rgb(35, 35, 35);
+        margin: 0;
+        padding: 0px 1em 1em 1em;
+    }
+
+    .opdr-contact h1 {
+        margin: 0;
+        padding: 0.6em 0;
+        color: rgb(110, 110, 110);
+    }
+
+    .opdr-contact .ppe {
+        display: flex;
+        color: rgb(110, 110, 110);
+        padding: 0 2em;
+    }
+
+    .opdr-contact .ppe p {
+        padding: 0em 15%;
+    }
     
 }
 
